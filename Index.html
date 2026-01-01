@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Año Nuevo Amor 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .pantalla {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    #contador {
+      font-size: 2.5rem;
+      background: rgba(255,255,255,0.2);
+      padding: 15px 25px;
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.25;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .oculto {
+      display: none;
+    }
+
+    .tarjeta {
+      background: rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 700px;
+      margin: 20px auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .corazon {
+      position: fixed;
+      color: #ff69b4;
+      font-size: 24px;
+      animation: flotar 5s linear infinite;
+    }
+
+    @keyframes flotar {
+      from {
+        transform: translateY(100vh) scale(1);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+.carrusel {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 105, 180, 0.7);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.btn:hover {
+  background: rgba(255, 105, 180, 0.9);
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+ 
+
+ 
+
+  <!-- PANTALLA INICIAL -->
+  <div id="antes" class="pantalla">
+    <h1>Falta poco, amor 💕</h1>
+    <p>Para comenzar un nuevo año juntos</p>
+    <div id="contador">00d 00h 00m 00s</div>
+  </div>
+
+  <!-- DESPUÉS DE LAS 12 -->
+  <div id="despues" class="oculto">
+
+    <section class="pantalla">
+      <h1>🎆 Feliz Año Nuevo, Amor 🎆</h1>
+      <p>Gracias por ser parte de mi vida 💖</p>
+    </section>
+
+    <section>
+     
+     <div class="tarjeta">
+  <h2>💑 Lo Emotivo de Conocerte </h2>
+  <p>
+    Desde el momento en que te conocí, algo en mí cambió.
+    No fue de golpe, fue poco a poco… entre pláticas,
+    risas inesperadas y momentos que sin darnos cuenta
+    se fueron volviendo importantes.
+  </p>
+  <p>
+    Con el tiempo entendí que no eras una persona más,
+    eras alguien que llegó para quedarse, para enseñarme
+    a ver la vida con más calma, con más cariño y con
+    un corazón más abierto.
+  </p>
+  <p>
+    Aprendí a conocerte, a entenderte, a cuidarte,
+    y también a valorar cada instante contigo,
+    incluso los días difíciles, porque contigo
+    todo vale la pena.
+  </p>
+  <p>
+    Este año a tu lado fue especial, lleno de aprendizajes,
+    crecimiento y amor. Y si algo tengo claro,
+    es que quiero seguir escribiendo esta historia contigo,
+    un año más, y muchos más después de este.
+  </p>
+</div>
+
+      </div>
+    </section>
+
+<section>
+  <div class="tarjeta">
+    <h2>📸 Nuestros Momentos</h2>
+    <p>
+      Cada risa, cada abrazo y cada recuerdo
+      vive aquí y en mi corazón.
+    </p>
+
+<div class="carrusel">
+  <div class="slides">
+    <div class="slide"><img src="fotos/1.jpg"></div>
+    <div class="slide"><img src="fotos/2.jpg"></div>
+    <div class="slide"><img src="fotos/3.jpg"></div>
+    <div class="slide"><img src="fotos/4.jpg"></div>
+    <div class="slide"><img src="fotos/5.jpg"></div>
+    <div class="slide"><img src="fotos/6.jpg"></div>
+  </div>
+
+  <button class="btn prev">❮</button>
+  <button class="btn next">❯</button>
+</div>
+
+  </div>
+</section>
+
+    <section>
+      <div class="tarjeta">
+        <h2>💌 Para Ti</h2>
+        <p>
+          Prometo cuidarte, escucharte y amarte
+          incluso en los días difíciles.
+          Por siempre y para siempre
+          Feliz  año nuevo, Mi Amooor 💖
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+   const fechaObjetivo = new Date("January 1, 2026 00:00:00").getTime();
+
+
+    const contador = document.getElementById("contador");
+    const antes = document.getElementById("antes");
+    const despues = document.getElementById("despues");
+    const musica = document.getElementById("musica");
+
+    const intervalo = setInterval(() => {
+      const ahora = new Date().getTime();
+      const distancia = fechaObjetivo - ahora;
+
+      if (distancia <= 0) {
+        clearInterval(intervalo);
+        antes.style.display = "none";
+        despues.classList.remove("oculto");
+        musica.play();
+        lanzarCorazones();
+        return;
+      }
+
+      const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((distancia / (1000 * 60 * 60)) % 24);
+      const minutos = Math.floor((distancia / (1000 * 60)) % 60);
+      const segundos = Math.floor((distancia / 1000) % 60);
+
+      contador.innerHTML =
+        `${dias}d ${horas}h ${minutos}m ${segundos}s`;
+    }, 1000);
+
+    function lanzarCorazones() {
+      setInterval(() => {
+        const corazon = document.createElement("div");
+        corazon.className = "corazon";
+        corazon.innerHTML = "💖";
+        corazon.style.left = Math.random() * 100 + "vw";
+        corazon.style.animationDuration = (3 + Math.random() * 3) + "s";
+        document.body.appendChild(corazon);
+
+        setTimeout(() => corazon.remove(), 5000);
+      }, 300);
+    }
+    const slides = document.querySelector(".slides");
+const totalSlides = document.querySelectorAll(".slides img").length;
+let index = 0;
+
+document.querySelector(".next").addEventListener("click", () => {
+  index = (index + 1) % totalSlides;
+  actualizarCarrusel();
+});
+
+document.querySelector(".prev").addEventListener("click", () => {
+  index = (index - 1 + totalSlides) % totalSlides;
+  actualizarCarrusel();
+});
+
+function actualizarCarrusel() {
+  slides.style.transform = `translateX(-${index * 100}%)`;
+}
+
+// automático cada 4 segundos
+setInterval(() => {
+  index = (index + 1) % totalSlides;
+  actualizarCarrusel();
+}, 4000);
+
+  </script>
+
+</body>
+
+</html>
